@@ -1,6 +1,7 @@
-.burger_menu,
-.burger_btn {
-  z-index: -100;
+.list,
+.burger_btn,
+.burger_menu {
+  display: none;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
