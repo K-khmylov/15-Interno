@@ -2,7 +2,7 @@
 
 .burger_menu,
 .burger_btn{
-    display: none;
+    z-index: -100;
 }
 
 @media (min-width: 320px) and (max-width:767px){
