@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="scripts/js.js" defer></script>
+    <title>Intero</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="assets/header/logo.svg" alt="Interno">
+            <div class="hedaer_nav">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Services</a>
+                <a href="#">Pages</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <button id="burger_btn" class="burger_btn">
+                <span></span>
+            </button>
+        </header>
+        <div class="burger_menu" id="burger_menu">
+            <div class="list">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Services</a>
+                <a href="#">Pages</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    <div class="under_header">
+        <div class="wrapper">
+            <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150">Let's Create Your Dream Interior</h1>
+            <p class="txt" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50">The world needs innovators and problem solvers who turn challenges into greater opportunities.</p>
+            <button data-aos="fade-up-right">
+                <p>Get started</p>
+                <svg width="27" height="33" viewBox="0 0 27 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.2172 2L26 16.3554L15 31" stroke="#CDA274" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+                    <path d="M1 16H24" stroke="#CDA274" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+                </svg>                    
+            </button>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="about">
+            <div data-aos="fade-up" data-aos-delay="50">
+                <p>Interior Design</p>
+                <p>Enhancing the interior to achieve a healthier environment for the people using right space.</p>
+                <a href="#">
+                    View More 
+                    <svg width="24" height="17" viewBox="0 0 24 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.52621 8.93006L19.8608 8.79321" stroke="#CDA274" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+                    <path d="M13.4125 2.40601L21.6519 8.92899L13.2465 15.5834" stroke="#CDA274" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="150">
+                <p>Furniture</p>
+                <p>Movable articles that are used to make a room or building suitable for living or working.</p>
+                <a href="#">
+                    View More 
+                    <svg width="24" height="17" viewBox="0 0 24 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.52621 8.93006L19.8608 8.79321" stroke="#CDA274" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+                    <path d="M13.4125 2.40601L21.6519 8.92899L13.2465 15.5834" stroke="#CDA274" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="200">
+                <p>Flooring</p>
+                <p>Thin object any finished material applied over a floor structure to provide a walking surface.</p>
+                <a href="#">
+                    View More 
+                    <svg width="24" height="17" viewBox="0 0 24 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.52621 8.93006L19.8608 8.79321" stroke="#CDA274" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+                    <path d="M13.4125 2.40601L21.6519 8.92899L13.2465 15.5834" stroke="#CDA274" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="support">
+            <div class="first" data-aos="fade-up-right">
+                <h2>We Tackle The Most Challenging Designs</h2>
+                <p class="txt">The world needs innovators and problem solvers who turn challenges into greater opportunities. We have an insatiable curiosity about transformative trends challenging the status.</p>
+                <div class="active_768px">
+                    <img src="assets/support/bg.png" alt="photo">
+                </div>
+                <div class="flex_768px">
+                    <div class="flex">
+                        <a href="#">
+                            <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M32.0012 26.0749C30.7796 24.8442 27.8211 23.0482 26.3857 22.3243C24.5164 21.3828 24.3625 21.3059 22.8933 22.3974C21.9133 23.1258 21.2617 23.7766 20.1148 23.532C18.9678 23.2874 16.4754 21.9082 14.2931 19.7329C12.1107 17.5576 10.6514 14.9931 10.4061 13.8501C10.1607 12.7071 10.8222 12.0632 11.5438 11.081C12.5607 9.69642 12.4838 9.46566 11.6145 7.59651C10.9368 6.14273 9.08833 3.21208 7.85291 1.99675C6.53134 0.691422 6.53134 0.922181 5.67979 1.27601C4.98652 1.56768 4.32141 1.92222 3.69281 2.3352C2.46201 3.15285 1.77892 3.83206 1.30122 4.85278C0.823512 5.87351 0.608892 8.26648 3.07588 12.7478C5.54286 17.2292 7.27367 19.5206 10.8561 23.0928C14.4385 26.6649 17.1931 28.5856 21.2202 30.844C26.2018 33.6339 28.1126 33.09 29.1365 32.6131C30.1604 32.1362 30.8427 31.4593 31.662 30.2286C32.076 29.6011 32.4314 28.9368 32.7235 28.2441C33.0781 27.3957 33.3089 27.3957 32.0012 26.0749Z" stroke="#CDA274" stroke-width="2" stroke-miterlimit="10"/>
+                            </svg>
+                        </a>
+                        <div>
+                            <p>012345678</p>
+                            <p>Call Us Anytime</p>
+                        </div>                        
+                    </div>
+                    <button>
+                        <p>Get Free Estimate</p>
+                        <svg width="27" height="33" viewBox="0 0 27 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.2172 2L26 16.3554L15 31" stroke="#CDA274" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+                            <path d="M1 16H24" stroke="#CDA274" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+                        </svg>    
+                    </button>
+                </div>
+            </div>
+            <div class="second" data-aos="fade-up-left">
+                <img src="assets/support/bg.png" alt="photo">
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="reviews">
+            <h3>What the People Thinks<br>About Interno</h3>
+            <div class="flex">
+                <div class="container" data-aos="zoom-out-down" data-aos-delay="150" data-aos-duration="300">
+                    <div class="inf_peop_flex">
+                        <img src="assets/peop_think/1st.png" alt="photo">
+                        <div class="flex_container">
+                            <p>Lisa Clairton</p>
+                            <p>New York, USA</p>
+                        </div>
+                    </div>
+                        <p class="txt">We selected Interno interior because of rigorous design background & education.</p>
+                </div>
+                <div class="container" data-aos="zoom-out-down" data-aos-delay="50" data-aos-duration="300">
+                    <div class="inf_peop_flex">
+                        <img src="assets/peop_think/2d.png" alt="photo">
+                        <div class="flex_container">
+                            <p>David Knight</p>
+                            <p>Sydney, Australia</p>
+                        </div>
+                    </div>
+                    <p class="txt">The team exceeded our expectations and emerged as leaders of our project's.</p>
+                </div>
+                <div class="container" data-aos="zoom-out-down" data-aos-delay="250" data-aos-duration="300">
+                    <div class="inf_peop_flex">
+                        <img src="assets/peop_think/3d.png" alt="photo">
+                        <div class="flex_container">
+                            <p>Lisa Clairton</p>
+                            <p>Paris, France</p>
+                        </div>
+                    </div>
+                    <p class="txt">They balanced the architectural vision and the project realities beautifully.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="sponsors">
+            <img src="assets/sponsors/1st.svg" alt="Modern Home">
+            <img src="assets/sponsors/2d.svg" alt="Style Vintage">
+            <img src="assets/sponsors/3d.svg" alt="Brand">
+            <img src="assets/sponsors/4d.svg" alt="Nature Home">
+            <img src="assets/sponsors/5th.svg" alt="Classic">
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="projects">
+            <h4>Recent Projects</h4>
+            <p class="txt">With tools to make every part of your process more human and a support team<br>excited to help you, getting started with us never been easier.</p>
+            <div class="projects_flex_block">
+                <div class="flex-container" data-aos="zoom-in-right">
+                    <div class="img_container">
+                        <img src="assets/recent projects/4th.png" alt="photo">
+                    </div>
+                    <div class="txt_container">
+                        <div>
+                            <p>Winery Dry Creek Building</p>
+                            <p>Art Modern</p>
+                        </div>
+                        <a href="#">
+                            <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.771 14.6859L7.71386 8.00017L1.771 1.31445" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                            
+                        </a>
+                    </div>
+                </div>
+                <div class="flex-container" data-aos="zoom-in-left">
+                    <div class="img_container">
+                        <img src="assets/recent projects/3d.png" alt="photo">
+                    </div>
+                    <div class="txt_container">
+                        <div>
+                            <p>Creative Workplace Design</p>
+                            <p>Minimalist</p>
+                        </div>
+                        <a href="#">
+                            <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.771 14.6859L7.71386 8.00017L1.771 1.31445" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                            
+                        </a>
+                    </div>
+                </div>
+                <div class="flex-container" data-aos="zoom-in-right">
+                    <div class="img_container">
+                        <img src="assets/recent projects/2d.png" alt="photo">
+                    </div>
+                    <div class="txt_container">
+                        <div>
+                            <p>Bedroom Interior Pot Work</p>
+                            <p>Modern</p>
+                        </div>
+                        <a href="#">
+                            <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.771 14.6859L7.71386 8.00017L1.771 1.31445" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                            
+                        </a>
+                    </div>
+                </div>
+                <div class="flex-container" data-aos="zoom-in-left">
+                    <div class="img_container">
+                        <img src="assets/recent projects/1st.png" alt="photo">
+                    </div>
+                    <div class="txt_container">
+                        <div>
+                            <p>Light Ambience Sepia Design</p>
+                            <p>Scandinavian</p>
+                        </div>
+                        <a href="#">
+                            <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.771 14.6859L7.71386 8.00017L1.771 1.31445" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                            
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="statistic">
+        <div class="wrapper">
+            <div class="statistic_container">
+                <div class="block" data-aos="fade-down-right" data-aos-delay="100">
+                    <p>12</p>
+                    <p>Years Of Experiance</p>
+                </div>
+                <div class="block" data-aos="fade-down" data-aos-delay="250">
+                    <p>5K</p>
+                    <p>Success Project</p>
+                </div>
+                <div class="block" data-aos="fade-down" data-aos-delay="250">
+                    <p>1K</p>
+                    <p>Active Project</p>
+                </div>
+                <div class="block" data-aos="fade-down-left" data-aos-delay="100">
+                    <p>4K</p>
+                    <p>Happy Customers</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="recent_blogs">
+            <h5>Recent Blogs</h5>
+            <p class="txt">Get updates about our latest trends and techniques used in<br>interior design project works.</p>
+            <div class="flex_block">
+                <div class="row">
+                    <div class="row_block" data-aos="fade-in" data-aos-delay="150" data-aos-duration="1000">
+                        <div class="photo">
+                            <div>
+                                <img src="assets/recent_Blogs/1st.png" alt="Kitchen">
+                            </div>
+                            <p>Kitchen Design</p>
+                        </div>
+                        <p>Residential Interior Designer In New York, USA</p>
+                        <div class="more">
+                            <p>November 23, 2021</p>
+                            <a href="#">
+                                <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.771 14.6859L7.71386 8.00017L1.771 1.31445" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row_block" data-aos="fade-in" data-aos-delay="100" data-aos-duration="700">
+                        <div class="photo">
+                            <div>
+                                <img src="assets/recent_Blogs/2d.png" alt="Living Room">
+                            </div>
+                            <p>Living Room</p>
+                        </div>
+                        <p>How To Choose The Best Wall Art & Decor House?</p>
+                        <div class="more">
+                            <p>November 23, 2021</p>
+                            <a href="#">
+                                <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.771 14.6859L7.71386 8.00017L1.771 1.31445" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row_block" data-aos="fade-in" data-aos-delay="50" data-aos-duration="300">
+                        <div class="photo">
+                            <div>
+                                <img src="assets/recent_Blogs/3d.png" alt="Minimalist Interior">
+                            </div>
+                            <p>Minimalist Interior</p>
+                        </div>
+                        <p>Tips To Increase The Interior Value Of Your House</p>
+                        <div class="more">
+                            <p>November 23, 2021</p>
+                            <a href="#">
+                                <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.771 14.6859L7.71386 8.00017L1.771 1.31445" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row_block" data-aos="fade-in" zdata-aos-delay="250" data-aos-duration="200">
+                        <div class="photo">
+                            <div>
+                                <img src="assets/recent_Blogs/4th.png" alt="Kitchen">
+                            </div>
+                            <p>Kitchen Design</p>
+                        </div>
+                        <p>Best Solution For Any Office & Business Interior</p>
+                        <div class="more">
+                            <p>November 23, 2021</p>
+                            <a href="#">
+                                <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.771 14.6859L7.71386 8.00017L1.771 1.31445" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row_block" data-aos="fade-in" zdata-aos-delay="50" data-aos-duration="1000">
+                        <div class="photo">
+                            <div>
+                                <img src="assets/recent_Blogs/5th.png" alt="Living Room">
+                            </div>
+                            <p>Living Room</p>
+                        </div>
+                        <p>Get Solution For Building Construction Work</p>
+                        <div class="more">
+                            <p>November 23, 2021</p>
+                            <a href="#">
+                                <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.771 14.6859L7.71386 8.00017L1.771 1.31445" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row_block" data-aos="fade-in" zdata-aos-delay="100" data-aos-duration="3000">
+                        <div class="photo">
+                            <div>
+                                <img src="assets/recent_Blogs/6th.png" alt="Minimalist Interior">
+                            </div>
+                            <p>Minimalist Interior</p>
+                        </div>
+                        <p>Attain The Best Finish For The Kitchen Cabinets</p>
+                        <div class="more">
+                            <p>November 23, 2021</p>
+                            <a href="#">
+                                <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.771 14.6859L7.71386 8.00017L1.771 1.31445" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="want_to_join" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+            <h6>Wanna join the interno?</h6>
+            <p class="txt">Contact Us & Get a Free Consultation</p>
+            <button>
+                <p>Connect With us</p>
+                <svg width="27" height="33" viewBox="0 0 27 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.2172 2L26 16.3554L15 31" stroke="#CDA274" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+                    <path d="M1 16H24" stroke="#CDA274" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+                </svg>                    
+            </button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="wrapper">
+            <div class="footer_block">
+                <div class="first">
+                    <img src="assets/header/logo.svg" alt="Interno">
+                    <p class="txt">We are the leading architect and interior design firm in the world.</p>
+                    <div class="links">
+                        <a href="#">
+                            <svg width="10" height="19" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.18359 10.5469L9.67578 7.3125H6.54688V5.20313C6.54688 4.28907 6.96875 3.44532 8.375 3.44532H9.81641V0.667969C9.81641 0.667969 8.51562 0.421875 7.28516 0.421875C4.71875 0.421875 3.03125 2.00391 3.03125 4.81641V7.3125H0.148438V10.5469H3.03125V18.4219H6.54688V10.5469H9.18359Z" fill="#292F36"/>
+                            </svg>                              
+                        </a>
+                        <a href="#">
+                            <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.0957 18.0749V6.32649H0.417481V18.0749H4.0957ZM2.23682 4.7548C3.42334 4.7548 4.37256 3.77249 4.37256 2.59373C4.37256 1.45425 3.42334 0.51123 2.23682 0.51123C1.08984 0.51123 0.140625 1.45425 0.140625 2.59373C0.140625 3.77249 1.08984 4.7548 2.23682 4.7548ZM17.8198 18.0749H17.8594V11.631C17.8594 8.48756 17.1475 6.05145 13.4297 6.05145C11.6499 6.05145 10.4634 7.03375 9.94922 7.93748H9.90966V6.32649H6.38965V18.0749H10.0679V12.2596C10.0679 10.7272 10.3447 9.27341 12.2432 9.27341C14.1416 9.27341 14.1812 11.0023 14.1812 12.3775V18.0749H17.8198Z" fill="#292F36"/>
+                            </svg>                               
+                        </a>
+                        <a href="#">
+                            <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 5.04498C6.48529 5.04498 4.48138 7.08187 4.48138 9.54964C4.48138 12.0566 6.48529 14.0543 9 14.0543C11.4754 14.0543 13.5186 12.0566 13.5186 9.54964C13.5186 7.08187 11.4754 5.04498 9 5.04498ZM9 12.4874C7.38902 12.4874 6.05308 11.1948 6.05308 9.54964C6.05308 7.94363 7.34972 6.65099 9 6.65099C10.611 6.65099 11.9076 7.94363 11.9076 9.54964C11.9076 11.1948 10.611 12.4874 9 12.4874ZM14.7367 4.88829C14.7367 4.30072 14.2652 3.83067 13.6758 3.83067C13.0864 3.83067 12.6149 4.30072 12.6149 4.88829C12.6149 5.47585 13.0864 5.94591 13.6758 5.94591C14.2652 5.94591 14.7367 5.47585 14.7367 4.88829ZM17.7229 5.94591C17.6443 4.53575 17.33 3.28228 16.3083 2.26384C15.2868 1.24539 14.0294 0.932021 12.6149 0.853679C11.1611 0.775336 6.79963 0.775336 5.34582 0.853679C3.93129 0.932021 2.71323 1.24539 1.65234 2.26384C0.63074 3.28228 0.316401 4.53575 0.237817 5.94591C0.159233 7.39523 0.159233 11.7432 0.237817 13.1926C0.316401 14.6027 0.63074 15.817 1.65234 16.8746C2.71323 17.893 3.93129 18.2064 5.34582 18.2848C6.79963 18.3631 11.1611 18.3631 12.6149 18.2848C14.0294 18.2064 15.2868 17.893 16.3083 16.8746C17.33 15.817 17.6443 14.6027 17.7229 13.1926C17.8015 11.7432 17.8015 7.39523 17.7229 5.94591ZM15.8368 14.7203C15.5618 15.5036 14.9331 16.0912 14.1865 16.4046C13.0079 16.8746 10.2573 16.7571 9 16.7571C7.70335 16.7571 4.95289 16.8746 3.81341 16.4046C3.02757 16.0912 2.43818 15.5036 2.12385 14.7203C1.65234 13.5843 1.77022 10.8423 1.77022 9.54964C1.77022 8.29617 1.65234 5.5542 2.12385 4.37907C2.43818 3.63482 3.02757 3.04725 3.81341 2.73389C4.95289 2.26384 7.70335 2.38134 9 2.38134C10.2573 2.38134 13.0079 2.26384 14.1865 2.73389C14.9331 3.00808 15.5226 3.63482 15.8368 4.37907C16.3083 5.5542 16.1905 8.29617 16.1905 9.54964C16.1905 10.8423 16.3083 13.5843 15.8368 14.7203Z" fill="#292F36"/>
+                            </svg>        
+                        </a>
+                        <a href="#">
+                            <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.9297 4.51914C18.7109 3.88633 19.4141 3.12695 19.9609 2.24101C19.2578 2.57851 18.4376 2.83164 17.6172 2.91601C18.4766 2.36758 19.1016 1.52383 19.4141 0.469141C18.6328 0.975391 17.7343 1.35508 16.8359 1.56601C16.0547 0.680078 15 0.173828 13.8281 0.173828C11.5624 0.173828 9.72657 2.15664 9.72657 4.60351C9.72657 4.94101 9.76562 5.27851 9.84375 5.61601C6.44531 5.40508 3.39843 3.63321 1.36719 0.975391C1.01562 1.60821 0.820312 2.36758 0.820312 3.21133C0.820312 4.73008 1.52343 6.08008 2.65624 6.88164C1.99219 6.83945 1.32812 6.67071 0.78125 6.33321V6.37539C0.78125 8.52695 2.1875 10.2988 4.0625 10.7207C3.75 10.8051 3.35938 10.8895 3.00781 10.8895C2.73438 10.8895 2.5 10.8473 2.22657 10.8051C2.73438 12.5769 4.25781 13.8426 6.05469 13.8848C4.64843 15.066 2.89062 15.7832 0.976562 15.7832C0.625 15.7832 0.3125 15.741 0 15.6989C1.79688 16.9645 3.94531 17.6816 6.28907 17.6816C13.8281 17.6816 17.9297 10.9738 17.9297 5.10977C17.9297 4.89883 17.9297 4.73008 17.9297 4.51914Z" fill="#292F36"/>
+                            </svg>                                
+                        </a>
+                    </div>
+                </div>
+                    <ul class="first_ul">
+                        <li>
+                            <p>Pages</p>
+                        </li>
+                        <li>
+                            <a href="#">Style Guide</a>
+                        </li>
+                        <li>
+                            <a href="#">Protected</a>
+                        </li>
+                        <li>
+                            <a href="#">Licenses</a>
+                        </li>
+                        <li>
+                            <a href="#">Changelog</a>
+                        </li>
+                        <li>
+                            <a href="#">404</a>
+                        </li>
+                    </ul>
+                    <ul class="second_ul">
+                        <li>
+                            <p>Explore</p>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Recent Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Pricing Plan</a>
+                        </li>
+                        <li>
+                            <a href="#">Our Projects</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <ul class="third_ul">
+                        <li>
+                            <p>Contact</p>
+                        </li>
+                        <li>
+                            <a href="#">contact@interno.com</a>
+                        </li>
+                        <li>
+                            <a href="#">53, East Birchwood Ave.<br> Brooklyn, New York 11201, USA.</a>
+                        </li>
+                        <li>
+                            <a href="#">(123) 456 - 7890</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <div class="under_footer_block">
+            <hr>
+            <p>
+                Copyright © Interno | Designed by<span> Victorflow</span>
+                 Templates - Powered by<span> Ya Kostya</span>
+            </p>
+        </div>
+    </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>    
+</body>
+</html>
