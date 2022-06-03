@@ -1,5 +1,4 @@
 
-
 .burger_menu,
 .burger_btn{
     z-index: -100;
@@ -7,7 +6,7 @@
 
 @media (min-width: 320px) and (max-width:767px){
     header{
-        button{
+        .burger_btn{
             z-index: 30;
             display: flex;
             justify-content:  center;
@@ -99,12 +98,14 @@
     }
 }
 @media (min-width: 425px) and (max-width: 594px){
+
     .burger_menu.open{
         transform: translateX(59vw);
     }
 }
 
 @media (min-width: 320px) and (max-width: 424px){
+
     .burger_menu.open{
         transform: translateX(47vw);
     }

@@ -4,7 +4,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  header button {
+  header .burger_btn {
     z-index: 30;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -21,7 +21,7 @@
     right: 0;
     top: 44%;
   }
-  header button span {
+  header .burger_btn span {
     position: relative;
     border-radius: 50px;
     height: 4px;
@@ -30,7 +30,7 @@
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear;
   }
-  header button span::before, header button span::after {
+  header .burger_btn span::before, header .burger_btn span::after {
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear;
     border-radius: 50px;
@@ -42,7 +42,7 @@
     height: 4px;
     background-color: black;
   }
-  header button span::after {
+  header .burger_btn span::after {
     top: -9px;
     left: 0;
   }
